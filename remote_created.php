@@ -15,6 +15,8 @@
     <h3>Hello World</h3>
 >>>>>>> ec3f647bc790db2d43b00bef076e1465a912f9a4
 /////this is another edit but this time on the local machine
-<br>Local machine edit after first failed pull/push</br>
+<br>Local machine edit after first failed pull</br>
+
+<h1>I am trying to update bens_branch on the remote repository from bens_branch on the local machine</h1>
   </body>
 </html>
