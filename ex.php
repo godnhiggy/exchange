@@ -7,5 +7,7 @@
   <body>
     This is the first page.
     <h1>This is the second edit</h1>
+    This is an edit on the remote machine that allows us to check and see if<br>
+    the push will work if there are changes on a different file than the one edited on the olcal machine
   </body>
 </html>
