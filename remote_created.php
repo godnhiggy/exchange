@@ -14,5 +14,7 @@
     ////this is the first edit on the remote machine for this file.
     <h3>Hello World</h3>
 >>>>>>> ec3f647bc790db2d43b00bef076e1465a912f9a4
+/////this is another edit but this time on the local machine
+<br>Local machine edit after first failed pull/push</br>
   </body>
 </html>
