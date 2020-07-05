@@ -5,6 +5,7 @@
     <title></title>
   </head>
   <body>
-   Created on remote
+   <h2>Created on remote</h2>
+   This is the first edit on local machine for this file.
   </body>
 </html>
