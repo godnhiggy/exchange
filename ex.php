@@ -49,8 +49,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 <h2>Modal Example</h2>
 
-<!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
+<!-- Trigger/Open The Modal
+<button id="myBtn">Open Modal</button>-->
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -58,15 +58,30 @@ body {font-family: Arial, Helvetica, sans-serif;}
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <p>Add our app to your HomeScreen!<br>
-    <pre>Android                                               IPhone</pre>
+    <h1>Add SimpleShare app to your HomeScreen!</h1>
+    <table>
+      <tr>
+        <th><h2>Android</h2></th>
+        <th><h2>Iphone</h2></th>
+      </tr>
+      <tr>
+        <th>
+          <ul>
+            <li>Open Browser</li>
+            <li>Click 3 dots often near the top</li>
+            <li>Send to HomeScreen</li>
+          </ul>
+        </th>
+        <th>
+          <ul>
+            <li>Open Browser</li>
+            <li>Click Send to option at the bottom</li>
+            <li>Send to HomeScreen</li>
+          </ul>
+        </th>
+      </tr>
 
-    <ul>
-      <li>Open Browser</li>
-      <li>Click three dots</li>
-      <li>Send to homescreen</li>
-    </ul>
-    </p>
+    </table>
   </div>
 
 </div>
@@ -81,7 +96,7 @@ var btn = document.getElementById("myBtn");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal
+// open the modal on load
 function auto() {
   modal.style.display = "block";
 }
